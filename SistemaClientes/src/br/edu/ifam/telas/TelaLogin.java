@@ -19,7 +19,7 @@ public class TelaLogin extends javax.swing.JFrame {
         //Essa execução coreesponde à de conexão com o banco de dados
         try { 
             
-            //preapra a consulta ao banco de dados em função do que for digitado nas caixas do usuário e senha
+            //Preapra a consulta ao banco de dados em função do que for digitado nas caixas do usuário e senha
             pst = conexao.prepareStatement(sql);
             
             //Captura o que for digitado no campo usuário (campo 1). 
